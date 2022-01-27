@@ -94,7 +94,7 @@ module.exports = {
     },
     lastUpdated: '上次更新：',
     repo: 'tlyboy/rj1901-ac-docs',
-    repoLabel: 'Gitee',
+    repoLabel: 'GitHub',
     docsRepo: 'tlyboy/rj1901-ac-docs',
     docsDir: 'docs',
     docsBranch: 'main',
