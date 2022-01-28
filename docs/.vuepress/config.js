@@ -1,7 +1,7 @@
 module.exports = {
   base: '/rj1901-ac-docs/',
-  title: '软件1901学委文档',
-  description: '软件1901学委文档',
+  title: '软件 1901 学委文档',
+  description: '软件 1901 学委文档',
   head: [
     [
       'meta',

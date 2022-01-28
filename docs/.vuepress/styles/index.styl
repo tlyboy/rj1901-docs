@@ -11,11 +11,11 @@ p, li {
 }
 
 .navbar .logo {
-  border-radius: 50%;
+  transition: all 0.3s;
 }
 
 .home .hero img {
-  border-radius: 50%;
+  transition: all 1s;
 }
 
 .theme-default-content div[class*='language-'] {
@@ -89,4 +89,8 @@ div[class~=language-http]:before {
 
 div[class~=language-jsp]:before {
   content: 'jsp';
+}
+
+div[class~=language-jsx]:before {
+  content: 'jsx';
 }

@@ -2,7 +2,7 @@
 
 ## 一、文档简介
 
-这是我用 [Typora](https://typora.com.cn/) 编写的班级文档。
+这是我用 [Typora](https://typora.io/) 编写的班级文档。
 
 > 我的学习笔记文档 ：[Guany 的文档](https://tlyboy.github.io/docs/)
 
@@ -15,7 +15,7 @@
 ## 三、Typora 主题推荐
 
 - [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme)
-- [typora-vue-guany-theme](https://gitee.com/tlyboy/typora-vue-guany-theme)（**自己基于上面这个改的**）
+- [typora-vue-guany-theme](https://github.com/tlyboy/typora-vue-guany-theme)（**自己基于上面这个改的**）
 
 ### 下载链接：
 
