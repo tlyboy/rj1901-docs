@@ -102,5 +102,8 @@ module.exports = {
     editLinkText: '在 GitHub 上编辑此页',
     smoothScroll: true
   },
-  plugins: ['@vuepress/back-to-top', '@vuepress/medium-zoom']
+  plugins: ['@vuepress/back-to-top', '@vuepress/medium-zoom'],
+  markdown: {
+    lineNumbers: true
+  }
 }

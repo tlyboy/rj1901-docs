@@ -1,26 +1,19 @@
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #3eaf7c;
+}
+
 body {
   font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 code, kbd, .line-number {
   font-family: 'CaskaydiaCove NF', 'Noto Sans SC', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-
-p, li {
-  word-wrap: break-word;
-}
-
-.navbar .logo {
-  transition: all 0.3s;
-}
-
-.home .hero img {
-  transition: all 1s;
-}
-
-.theme-default-content div[class*='language-'] {
-  margin: 0;
-  border-radius: 6px;
 }
 
 blockquote {
@@ -34,25 +27,34 @@ blockquote {
   text-align: center;
 }
 
-.theme-default-content code {
-  color: #2980b9;
-}
-
 strong {
-  font-weight: 400;
   color: #e74c3c;
 }
 
-h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong, th strong {
-  font-weight: 600;
+p strong, li strong, td strong {
+  font-weight: 400;
 }
 
-td code {
-  line-height: 2em;
+p, li {
+  word-wrap: break-word;
 }
 
 h5, h6 {
   font-size: 1rem;
+}
+
+.theme-default-content div[class*='language-'] {
+  margin: 0;
+  border-radius: 6px;
+}
+
+.theme-default-content code {
+  color: #2980b9;
+  line-height: 1.7;
+}
+
+.theme-default-content pre code, .theme-default-content pre[class*='language-'] code {
+  line-height: 1;
 }
 
 div[class~=language-]:before {
@@ -93,4 +95,8 @@ div[class~=language-jsp]:before {
 
 div[class~=language-jsx]:before {
   content: 'jsx';
+}
+
+div[class~=language-sql]:before {
+  content: 'sql';
 }
