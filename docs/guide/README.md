@@ -16,10 +16,6 @@
 
 - [vuepress-quick-start](https://tlyboy.github.io/vuepress-quick-start/)
 
-### GitHub
+#### vuepress-quick-start
 
 [https://github.com/tlyboy/vuepress-quick-start](https://github.com/tlyboy/vuepress-quick-start)
-
-### Gitee
-
-[https://gitee.com/tlyboy/vuepress-quick-start](https://gitee.com/tlyboy/vuepress-quick-start)
