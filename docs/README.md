@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: https://cdn.jsdelivr.net/gh/tlyboy/assets/logo/3.png
 heroText: 软件 1901 学委文档
 tagline: By：tlyboy
 actionText: 文档简介 →
