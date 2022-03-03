@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /favicon.png
+heroImage: /hero.png
 heroText: 软件 1901 学委文档
 tagline: By：tlyboy
 actionText: 文档简介 →
