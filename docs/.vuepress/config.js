@@ -15,14 +15,14 @@ module.exports = {
       'link',
       {
         rel: 'icon',
-        href: 'https://cdn.jsdelivr.net/gh/tlyboy/assets/favicon/3.ico'
+        href: '/favicon.ico'
       }
     ],
     [
       'link',
       {
         rel: 'apple-touch-icon',
-        href: 'https://cdn.jsdelivr.net/gh/tlyboy/assets/favicon/3.png'
+        href: '/favicon.png'
       }
     ]
   ],
@@ -33,7 +33,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    logo: 'https://cdn.jsdelivr.net/gh/tlyboy/assets/logo/3.png',
+    logo: '/hero.png',
     nav: [
       { text: '文档简介', link: '/guide/' },
       {
