@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /hero.png
-heroText: 软件 1901 学委文档
-tagline: By：tlyboy
+heroText: 软件 1901 文档
+tagline: 作者：tlyboy
 actionText: 文档简介 →
 actionLink: /guide/
 features:

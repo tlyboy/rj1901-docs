@@ -1,14 +1,13 @@
 module.exports = {
   base: '/rj1901-ac-docs/',
-  title: '软件 1901 学委文档',
-  description: '软件 1901 学委文档',
+  title: '软件 1901 文档',
+  description: '软件 1901 文档',
   head: [
     [
       'meta',
       {
         name: 'viewport',
-        content:
-          'width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0 ,maximum-scale=1.0'
+        content: 'width=device-width,initial-scale=1,user-scalable=no'
       }
     ],
     [
@@ -32,10 +31,12 @@ module.exports = {
       lang: 'zh-CN'
     }
   },
+  theme: 'reco',
   themeConfig: {
     logo: '/hero.png',
     nav: [
-      { text: '文档简介', link: '/guide/' },
+      { text: '主页', link: '/', icon: 'reco-home' },
+      { text: '简介', link: '/guide/', icon: 'reco-tag' },
       {
         text: '信息速查',
         items: [
@@ -43,7 +44,8 @@ module.exports = {
           { text: '教学作息时间表', link: '/class/time_table' },
           { text: '考试时间', link: '/class/examination_time' },
           { text: '学院校历', link: '/class/school_calendar' }
-        ]
+        ],
+        icon: 'reco-message'
       },
       {
         text: '考前复习',
@@ -102,18 +104,18 @@ module.exports = {
               }
             ]
           }
-        ]
-      }
+        ],
+        icon: 'reco-document'
+      },
+      { text: '时间轴', link: '/timeline/', icon: 'reco-date' }
     ],
+    startYear: '2021',
+    author: 'tlyboy',
+    logo: '/head.png',
+    authorAvatar: '/avatar.png',
+    noFoundPageByTencent: false,
     sidebarDepth: 2,
     sidebar: {
-      '/guide/': [''],
-      '/class/': [
-        'class_table',
-        'time_table',
-        'examination_time',
-        'school_calendar'
-      ],
       '/test/java-framework/': ['subject', 'answer'],
       '/test/programming-php/': ['subject', 'answer'],
       '/test/computer-utility-software/': [
@@ -122,11 +124,10 @@ module.exports = {
         'extra_1_answer',
         'extra_2_subject',
         'extra_2_answer'
-      ],
-      '/test/multimedia-technology/': ['subject'],
-      '/test/android-application-development/': ['outline']
+      ]
     },
-    lastUpdated: '上次更新：',
+    subSidebar: 'auto',
+    lastUpdated: '上次更新',
     repo: 'tlyboy/rj1901-ac-docs',
     repoLabel: 'GitHub',
     docsRepo: 'tlyboy/rj1901-ac-docs',
@@ -136,7 +137,6 @@ module.exports = {
     editLinkText: '在 GitHub 上编辑此页',
     smoothScroll: true
   },
-  plugins: ['@vuepress/back-to-top', '@vuepress/medium-zoom'],
   markdown: {
     lineNumbers: true
   }

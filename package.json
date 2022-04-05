@@ -1,17 +1,18 @@
 {
   "name": "rj1901-ac-docs",
   "version": "1.0.0",
-  "description": "软件 1901 学委文档",
-  "main": "index.js",
-  "author": "Guany",
+  "description": "软件 1901 文档",
   "license": "MIT",
+  "author": "Guany",
+  "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.11"
+  },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.9.7",
-    "@vuepress/plugin-medium-zoom": "^1.9.7",
     "vuepress": "^1.9.7"
   }
 }
