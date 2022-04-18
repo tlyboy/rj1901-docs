@@ -324,43 +324,67 @@ D、\<%@
 
 1. Java 程序如何销毁一个对象，与其他语言有什么不同？（**P38 页 对象的销毁**）
 
-> Java 提供的垃圾回收机制可以自动判断对象是否还在使用，并能够自动销毁不再使用的对象，收回对象所占用的资源。
->
-> 不同：在许多编程语言中，需要手动释放对象所占用的内存，但是，在 Java 中则不需要手动完成这项工作。
+::: tip
+
+Java 提供的垃圾回收机制可以自动判断对象是否还在使用，并能够自动销毁不再使用的对象，收回对象所占用的资源。
+
+不同：在许多编程语言中，需要手动释放对象所占用的内存，但是，在 Java 中则不需要手动完成这项工作。
+
+:::
 
 2. 简述使用 JDBC 连接数据库的 5 个步骤？（**P187 页**）
 
-> 1. 加载 JDBC 驱动程序
-> 2. 创建数据库连接
-> 3. 执行 SQL 语句
-> 4. 获得查询结果
-> 5. 关闭连接
+::: tip
+
+1. 加载 JDBC 驱动程序
+2. 创建数据库连接
+3. 执行 SQL 语句
+4. 获得查询结果
+5. 关闭连接
+
+:::
 
 3. 简述 Java 中包的概念？ 列举包的 3 种用途？（**P38 页**）
 
-> 包（package）是 Java 提供的一种区别类名字空间的机制，是类的组织方式，是一组相关类和接口的集合，它提供了访问权限和命名的管理机制。
->
-> 3 种用途：
->
-> 1. 将功能相近的类放在一个包中，可以方便查找和使用；
-> 2. 由于在不同包中可以存在同名类，所以使用包在一定程序上可以避免命名冲突；
-> 3. 在 Java 中某些访问权限是以包单位的。
+::: tip
+
+包（package）是 Java 提供的一种区别类名字空间的机制，是类的组织方式，是一组相关类和接口的集合，它提供了访问权限和命名的管理机制。
+
+3 种用途：
+
+1. 将功能相近的类放在一个包中，可以方便查找和使用；
+2. 由于在不同包中可以存在同名类，所以使用包在一定程序上可以避免命名冲突；
+3. 在 Java 中某些访问权限是以包单位的。
+
+:::
 
 4. session 对象与 application 对象的区别有哪些？
 
-> session 对象和用户回话相关，不同用户的 session 是不同的对象，而用户的 application 对象都是相同的一个对象，即共享这个内置的 application 对象。
+::: tip
+
+session 对象和用户回话相关，不同用户的 session 是不同的对象，而用户的 application 对象都是相同的一个对象，即共享这个内置的 application 对象。
+
+:::
 
 5. 请分别说明 click，select 以及 focus 这三个 javascript 事件在何时触发？（**P48 页**）
 
-> click：单击鼠标左键时触发
->
-> select：选中文本时触发
->
-> focus：任何元素或窗口本身获得焦点时触发
+::: tip
+
+click：单击鼠标左键时触发
+
+select：选中文本时触发
+
+focus：任何元素或窗口本身获得焦点时触发
+
+:::
 
 6. JSP 中内置对象有哪些？（**P79 页**）
 
-> application、config、exception、out、page、pageContent、request、response、session
+::: tip
+
+application、config、exception、out、page、pageContent、request、response、session
+
+:::
 
 <br>
 
@@ -375,17 +399,21 @@ D、\<%@
 
 以上代码提交的目的页面是什么？
 
-> a.jsp（由 action 页面决定）
+::: tip
+
+a.jsp（由 action 页面决定）
+
+:::
 
 如果在下一个页面利用 JSP 内置对象获取表单中的用户名，写出对应的代码。（**P80 页**）
 
-> ```jsp
-> <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-> <%
->     String username = request.getParameter("username");
->     out.println("用户名为：" + username);
-> %>
-> ```
+```jsp
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    String username = request.getParameter("username");
+    out.println("用户名为：" + username);
+%>
+```
 
 ```jsp
 <%@ page language="java" pageEncoding="UTF-8"%>
@@ -403,6 +431,10 @@ D、\<%@
 
 指出程序中 page 指令中 import 属性的作用？（**P55 页**）
 
-> import 属性类似于 Java 中的 import 语句，用来向 JSP 文件中导入需要用到的包。在 Page 指令中可多次使用该属性来导入多个包。
+::: tip
+
+import 属性类似于 Java 中的 import 语句，用来向 JSP 文件中导入需要用到的包。在 Page 指令中可多次使用该属性来导入多个包。
+
+:::
 
 <br>

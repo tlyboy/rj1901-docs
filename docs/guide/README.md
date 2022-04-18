@@ -7,7 +7,11 @@ date: 2022-2-19
 
 这是我们软件 1901 的班级文档。
 
-> 我的博客：[Guany 的博客](https://tlyboy.github.io/blog/)
+::: tip
+
+我的博客：[Guany 的博客](https://tlyboy.github.io/blog/)
+
+:::
 
 ## 二、联系方式
 
