@@ -7,7 +7,7 @@ set -e
 pnpm run docs:build
 
 # 进入生成的文件夹
-cd .vuepress/dist
+cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
@@ -26,4 +26,4 @@ git push -f git@gitee.com:tlyboy/rj1901-ac-docs.git master:gh-pages
 
 cd -
 
-rm -rf .vuepress
+rm -rf docs/.vuepress/dist
