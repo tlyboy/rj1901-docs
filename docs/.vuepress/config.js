@@ -34,8 +34,8 @@ module.exports = {
   themeConfig: {
     logo: '/hero.png',
     nav: [
-      { text: '主页', link: '/', icon: 'reco-home' },
-      { text: '简介', link: '/guide/', icon: 'reco-tag' },
+      { text: '首页', link: '/', icon: 'reco-home' },
+      { text: '文档简介', link: '/guide/', icon: 'reco-tag' },
       {
         text: '信息速查',
         items: [
