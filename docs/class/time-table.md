@@ -1,6 +1,5 @@
 ---
 title: 教学作息时间表
-date: 2022-1-27
 ---
 
 <p style="text-align: center">（自2021年9月1日执行起执行）</p>

@@ -1,8 +1,5 @@
 ---
 title: Android 程序设计（大纲）
-date: 2022-1-27
-sidebar: false
-subSidebar: false
 ---
 
 1. Android 开发也可以在 Windows 系统中实现。
