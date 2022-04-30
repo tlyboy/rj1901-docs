@@ -1,11 +1,3 @@
 # 软件 1901 文档
 
-## 简介
-
-这是我们软件 1901 的班级文档。
-
-## 学委的联系方式
-
-| QQ         | 微信   | 钉钉   |
-| ---------- | ------ | ------ |
-| 1084072690 | boytly | tlyboy |
+该文档基于 [vuepress-quick-start](https://github.com/tlyboy/vuepress-quick-start) 构建
