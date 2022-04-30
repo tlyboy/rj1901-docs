@@ -2,7 +2,7 @@ import { defineConfig } from 'vuepress/config'
 
 export default defineConfig({
   base: '/docs/',
-  description: '这是我们软件 1901 的班级文档。',
+  description: '这是我们软件 1901 的班级文档',
   head: [
     [
       'meta',
