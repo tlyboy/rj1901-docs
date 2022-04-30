@@ -1,3 +1,3 @@
-# 软件 1901 文档
+# rj1901-ac-docs
 
-该文档基于 [vuepress-quick-start](https://tlyboy.github.io/vuepress-quick-start/) 构建
+📄 软件 1901 班级文档
