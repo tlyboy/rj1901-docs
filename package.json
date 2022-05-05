@@ -1,7 +1,7 @@
 {
   "name": "rj1901-ac-docs",
   "version": "1.0.0",
-  "description": "这是我们软件 1901 的班级文档",
+  "description": "软件 1901 班级文档",
   "license": "MIT",
   "author": "Guany",
   "main": "index.js",
