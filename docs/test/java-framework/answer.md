@@ -404,7 +404,7 @@ a.jsp（由 action 页面决定）
 
 如果在下一个页面利用 JSP 内置对象获取表单中的用户名，写出对应的代码。（**P80 页**）
 
-```text
+```html
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String username = request.getParameter("username");
@@ -412,7 +412,7 @@ a.jsp（由 action 页面决定）
 %>
 ```
 
-```text
+```html
 <%@ page language="java" pageEncoding="UTF-8"%>
 <% page import="java.util.Date" %>
 <html>

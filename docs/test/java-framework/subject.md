@@ -341,7 +341,7 @@
 
 如果在下一个页面利用 JSP 内置对象获取表单中的用户名，写出对应的代码。
 
-```text
+```html
 <%@ page language="java" pageEncoding="UTF-8"%>
 <% page import="java.util.Date" %>
 <html>
