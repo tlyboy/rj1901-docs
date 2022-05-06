@@ -1,7 +1,7 @@
 import { defineConfig } from 'vuepress/config'
 
 export default defineConfig({
-  base: '/docs/',
+  base: '/rj1901-ac-docs/',
   description: '这是我们软件 1901 的班级文档',
   head: [
     [
