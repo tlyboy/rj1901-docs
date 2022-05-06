@@ -1,6 +1,4 @@
----
-title: Android 程序设计（大纲）
----
+# Android 程序设计
 
 1. Android 开发也可以在 Windows 系统中实现。
 
@@ -8,7 +6,7 @@ title: Android 程序设计（大纲）
 
 3. Activity 生命周期：
 
-   ::: tip
+   ::: tip 答案
 
    （1）Activity 的整个生命周期中有 活动、暂停、停止 和 非活动 四种状态；
 
@@ -44,7 +42,7 @@ title: Android 程序设计（大纲）
 
 14. Android 系统提供了四种主要的数据存储方式：
 
-    ::: tip
+    ::: tip 答案
 
     （1）文件存储；
 
@@ -62,7 +60,7 @@ title: Android 程序设计（大纲）
 
 17. Android 项目中，读文件的基本步骤：
 
-    ::: tip
+    ::: tip 答案
 
     （1）调用 `OpenFileInput()` 方法，传入需要读取数据的文件名，该方法将会返回一个文件输入流对象。
 
@@ -102,7 +100,7 @@ title: Android 程序设计（大纲）
 
 32. 安卓写文件的基本过程：
 
-    ::: tip
+    ::: tip 答案
 
     （1）调用 `OpenFileOutput()` 方法，传入文件的名称和操作的模式，该方法将返回一个文件输出流。
 
@@ -154,7 +152,7 @@ title: Android 程序设计（大纲）
 
 47. 在 android 项目中，src 和 assets 目录的作用：
 
-    ::: tip
+    ::: tip 答案
 
     （1）src 目录用来放置所有的逻辑代码，所有 java 文件都放在这里；
 

@@ -1,296 +1,294 @@
----
-title: Java 开源框架（题目+答案)
----
+# Java 开源框架（含答案)
 
-## 一、选择题
+## 选择题
 
-### 1、利用 Eclipse 开发一个简单的 JSP 程序，通常需要新建一个（**C**）
+1. 利用 Eclipse 开发一个简单的 JSP 程序，通常需要新建一个（**C**）
 
-A、Static Web Project
+   A、Static Web Project
 
-B、EJB Project
+   B、EJB Project
 
-C、Dynamic Web Project
+   C、Dynamic Web Project
 
-D、Java Project
+   D、Java Project
 
-### 2、Tomcat 服务器的默认端口为（**B**）
+2. Tomcat 服务器的默认端口为（**B**）
 
-A、80
+   A、80
 
-B、8080
+   B、8080
 
-C、3306
+   C、3306
 
-D、1433
+   D、1433
 
-### 3、以下编码方式中，不支持中文显示的是（**D**）
+3. 以下编码方式中，不支持中文显示的是（**D**）
 
-A、gb2312
+   A、gb2312
 
-B、gbk
+   B、gbk
 
-C、utf-8
+   C、utf-8
 
-D、ISO-8859-1
+   D、ISO-8859-1
 
-### 4、下列关于表单的说法中，错误的是（**B**）
+4. 下列关于表单的说法中，错误的是（**B**）
 
-A、表单的提交方式有 GET 和 POST 两种
+   A、表单的提交方式有 GET 和 POST 两种
 
-B、表单提交的目的页面由 method 方法决定
+   B、表单提交的目的页面由 method 方法决定
 
-C、表单通过 \<FORM\> 标签进行定义
+   C、表单通过 \<FORM\> 标签进行定义
 
-D、表单中 \<input type="text" name="username"\> 可以定义一个文本输入框
+   D、表单中 \<input type="text" name="username"\> 可以定义一个文本输入框
 
-### 5、以下 JavaScript 的事件中，在选中文本时被触发的是（**B**）
+5. 以下 JavaScript 的事件中，在选中文本时被触发的是（**B**）
 
-A、change
+   A、change
 
-B、select
+   B、select
 
-C、keydown
+   C、keydown
 
-D、focus
+   D、focus
 
-### 6、表单的数据传递到服务器端时，需要通过 JSP 的哪个内置变量的 getParameter 方法来获取提交的数据（**B**）
+6. 表单的数据传递到服务器端时，需要通过 JSP 的哪个内置变量的 getParameter 方法来获取提交的数据（**B**）
 
-A、response
+   A、response
 
-B、request
+   B、request
 
-C、session
+   C、session
 
-D、cookie
+   D、cookie
 
-### 7、类似于系统的全局变量，可以用于统计网站的访问人数的内置变量是（**A**）
+7. 类似于系统的全局变量，可以用于统计网站的访问人数的内置变量是（**A**）
 
-A、application
+   A、application
 
-B、session
+   B、session
 
-C、cookie
+   C、cookie
 
-D、request
+   D、request
 
-### 8、以下关于 cookie 和 session 的说法中，错误的是（**B**）
+8. 以下关于 cookie 和 session 的说法中，错误的是（**B**）
 
-A、session 是在服务器端保存用户信息
+   A、session 是在服务器端保存用户信息
 
-B、cookie 随着会话的结束而被失效删除。
+   B、cookie 随着会话的结束而被失效删除。
 
-C、cookie 是在客户端保存用户信息
+   C、cookie 是在客户端保存用户信息
 
-D、session 对象随着会话的结束而失效
+   D、session 对象随着会话的结束而失效
 
-### 9、若某页面需权限校验，用户在登录成功后，需要将对应的用户信息存放到（**C**）中，在跳转到需要校验权限的页面后，取出该信息进行校验
+9. 若某页面需权限校验，用户在登录成功后，需要将对应的用户信息存放到（**C**）中，在跳转到需要校验权限的页面后，取出该信息进行校验
 
-A、cookie
+   A、cookie
 
-B、application
+   B、application
 
-C、session
+   C、session
 
-D、临时文件
+   D、临时文件
 
-### 10、以下关于 JSP 表达式的写法中，正确的是（**C**）
+10. 以下关于 JSP 表达式的写法中，正确的是（**C**）
 
-A、\<%= "XYZ"; %\>
+    A、\<%= "XYZ"; %\>
 
-B、\<% out.println("XYZ"); %\>
+    B、\<% out.println("XYZ"); %\>
 
-C、\<%= "XYZ" %\>
+    C、\<%= "XYZ" %\>
 
-D、\<? php echo"XYZ"; ?\>
+    D、\<? php echo"XYZ"; ?\>
 
-### 11、\<%@ page contentType="UTF8" %\>,该语句为（**A**）
+11. \<%@ page contentType="UTF8" %\>,该语句为（**A**）
 
-A、JSP 的指令标识
+    A、JSP 的指令标识
 
-B、JSP 的脚本标识
+    B、JSP 的脚本标识
 
-C、JSP 声明标识
+    C、JSP 声明标识
 
-D、JSP 表达式
+    D、JSP 表达式
 
-### 12、Servletde 实现需要继承 HttpServlet 类，以下程序定义了一个名为 MyServlet 的 servlet，正确的是（**A**）
+12. Servletde 实现需要继承 HttpServlet 类，以下程序定义了一个名为 MyServlet 的 servlet，正确的是（**A**）
 
-A、public class MyServlet extends HttpServlet
+    A、public class MyServlet extends HttpServlet
 
-B、public class MyServlet implements HttpServlet
+    B、public class MyServlet implements HttpServlet
 
-C、public class MyServlet extend HttpServlet
+    C、public class MyServlet extend HttpServlet
 
-D、public class HttpServlet extends MyServlet
+    D、public class HttpServlet extends MyServlet
 
-### 13、以下采用注解配置的 servlet 形式正确的是（**B**）
+13. 以下采用注解配置的 servlet 形式正确的是（**B**）
 
-A、@WebServlet(/loginCheck)
+    A、@WebServlet(/loginCheck)
 
-B、@WebServlet("/loginCheck")
+    B、@WebServlet("/loginCheck")
 
-C、@web("\\loginCheck")
+    C、@web("\\loginCheck")
 
-D、@servlet("logincheck")
+    D、@servlet("logincheck")
 
-### 14、下列关于 JavaBean 的说法中，错误的是（**B**）
+14. 下列关于 JavaBean 的说法中，错误的是（**B**）
 
-A、JavaBean 通常用于封装业务和数据
+    A、JavaBean 通常用于封装业务和数据
 
-B、JavaBean 中的 getter 和 setter 方法通常是私有 private 的
+    B、JavaBean 中的 getter 和 setter 方法通常是私有 private 的
 
-C、JavaBean 中属性通常是私有 private 的
+    C、JavaBean 中属性通常是私有 private 的
 
-D、JavaBean 是一个共有类，提供无参的构造方法
+    D、JavaBean 是一个共有类，提供无参的构造方法
 
-### 15、如果一个数据库连接中，首先建立连接对象 conn，操作对象为 pstmt，得到的查询结果集为 rs，则在释放资源的过程中，正确的释放顺序是（**D**）
+15. 如果一个数据库连接中，首先建立连接对象 conn，操作对象为 pstmt，得到的查询结果集为 rs，则在释放资源的过程中，正确的释放顺序是（**D**）
 
-A、rs.close(); conn.close(); pstmt.close();
+    A、rs.close(); conn.close(); pstmt.close();
 
-B、conn.close(); pstmt.close(); rs.close();
+    B、conn.close(); pstmt.close(); rs.close();
 
-C、conn.close(); rs.close(); pstmt.close();
+    C、conn.close(); rs.close(); pstmt.close();
 
-D、rs.close(); pstmt.close(); conn.close();
+    D、rs.close(); pstmt.close(); conn.close();
 
-### 16、下列选项中哪一项是数据库（**C**）
+16. 下列选项中哪一项是数据库（**C**）
 
-A、IIS
+    A、IIS
 
-B、Apache
+    B、Apache
 
-C、Oracle
+    C、Oracle
 
-D、Tomcat
+    D、Tomcat
 
-### 17、MVC 框架层中 C 代表的是（**C**）
+17. MVC 框架层中 C 代表的是（**C**）
 
-A、模型层
+    A、模型层
 
-B、视图层
+    B、视图层
 
-C、控制层
+    C、控制层
 
-D、数据库层
+    D、数据库层
 
-### 18、strtus2 框架的**核心控制器**配置在如下的哪个配置文件中。（**A**）
+18. strtus2 框架的**核心控制器**配置在如下的哪个配置文件中。（**A**）
 
-A、web.xml
+    A、web.xml
 
-B、struts.xml
+    B、struts.xml
 
-C、hibernate.cfg.xml
+    C、hibernate.cfg.xml
 
-D、php.ini
+    D、php.ini
 
-### 19、strtus2 框架的**业务控制器**配置在如下的哪个配置文件中。（**B**）
+19. strtus2 框架的**业务控制器**配置在如下的哪个配置文件中。（**B**）
 
-A、web.xml
+    A、web.xml
 
-B、struts.xml
+    B、struts.xml
 
-C、hibernate.cfg.xml
+    C、hibernate.cfg.xml
 
-D、php.ini
+    D、php.ini
 
-### 20、判断字符串 str 是否与 yyy 相同，可以用以下哪个语句进行判断？（**A**）
+20. 判断字符串 str 是否与 yyy 相同，可以用以下哪个语句进行判断？（**A**）
 
-A、str.equals("yyy")
+    A、str.equals("yyy")
 
-B、str.equal("yyy")
+    B、str.equal("yyy")
 
-C、str="yyy"
+    C、str="yyy"
 
-D、str、setAttribute("yyy")
+    D、str、setAttribute("yyy")
 
-### 21、JSP 的指令标识以下列哪个形式作为开头？（**D**）
+21. JSP 的指令标识以下列哪个形式作为开头？（**D**）
 
-A、\<%!
+    A、\<%!
 
-B、\<%#
+    B、\<%#
 
-C、\<?@
+    C、\<?@
 
-D、\<%@
+    D、\<%@
 
-### 22、以下配置文件中，可以将对象 Person 映射到数据库表的配置文件是（**C**）// 不考
+22. 以下配置文件中，可以将对象 Person 映射到数据库表的配置文件是（**C**）// 不考
 
-A、hibernate.cfg.xml
+    A、hibernate.cfg.xml
 
-B、hibernate.cfg
+    B、hibernate.cfg
 
-C、Person.hbm.xml
+    C、Person.hbm.xml
 
-D、Person.cfg
+    D、Person.cfg
 
-### 23、在操作数据库的过程中，以下代码的含义是（**C**）
+23. 在操作数据库的过程中，以下代码的含义是（**C**）
 
-```java
-Class.forName(driverClass);
-```
+    ```java
+    Class.forName(driverClass);
+    ```
 
-A、打开数据库连接
+    A、打开数据库连接
 
-B、关闭连接
+    B、关闭连接
 
-C、加载驱动程序
+    C、加载驱动程序
 
-D、获取查询结果
+    D、获取查询结果
 
-### 24、以下关于 cookie 和 session 的说法中，错误的是（**B**）
+24. 以下关于 cookie 和 session 的说法中，错误的是（**B**）
 
-A、session 是在服务器端保存用户信息
+    A、session 是在服务器端保存用户信息
 
-B、cookie 在服务器端保存用户的信息。
+    B、cookie 在服务器端保存用户的信息。
 
-C、cookie 是以文本的形式保存用户信息
+    C、cookie 是以文本的形式保存用户信息
 
-D、session 对象随着会话的结束而失效
+    D、session 对象随着会话的结束而失效
 
-### 25、<%! intx=8; %>,该语句为（**C**）
+25. <%! intx=8; %>,该语句为（**C**）
 
-A、JSP 的指令标识
+    A、JSP 的指令标识
 
-B、JSP 的脚本标识
+    B、JSP 的脚本标识
 
-C、JSP 声明标识
+    C、JSP 声明标识
 
-D、JSP 表达式
+    D、JSP 表达式
 
-### 26、如果 SQL 语句中使用了？作为占位符，该 SQL 语句通常是下列哪个对象的参数（**B**）
+26. 如果 SQL 语句中使用了？作为占位符，该 SQL 语句通常是下列哪个对象的参数（**B**）
 
-A、Statement
+    A、Statement
 
-B、PreparedStatement
+    B、PreparedStatement
 
-C、prepare
+    C、prepare
 
-D、Connection
+    D、Connection
 
-### 27、MVC 框架层中 V 代表的是（**B**）
+27. MVC 框架层中 V 代表的是（**B**）
 
-A、模型层
+    A、模型层
 
-B、视图层
+    B、视图层
 
-C、控制层
+    C、控制层
 
-D、数据库层
+    D、数据库层
 
-### 28、JSP 的声明标识以下列哪个形式作为开头？（**A**）
+28. JSP 的声明标识以下列哪个形式作为开头？（**A**）
 
-A、\<%!
+    A、\<%!
 
-B、\<%#
+    B、\<%#
 
-C、\<?@
+    C、\<?@
 
-D、\<%@
+    D、\<%@
 
 <br />
 
-## 二、填空题
+## 填空题
 
 1. 在以下 HTML 常用的标签设计中 ，\<input type=" radio" name ="" \> ， 表示设置一个
    单选框，对应的复选框使用的 type 为（**checkbox**）。
@@ -309,7 +307,7 @@ D、\<%@
 
 <br />
 
-## 三、判断题
+## 判断题
 
 1. Java 中也可以定义一个指针。（**错**）
 2. 在 JSP 指令标识中，<% 与@ 之间可以有空格，如<% @ import=” ” %>（**错**）
@@ -319,11 +317,11 @@ D、\<%@
 
 <br />
 
-## 四、简答题
+## 简答题
 
 1. Java 程序如何销毁一个对象，与其他语言有什么不同？（**P38 页 对象的销毁**）
 
-   ::: tip
+   ::: tip 答案
 
    Java 提供的垃圾回收机制可以自动判断对象是否还在使用，并能够自动销毁不再使用的对象，收回对象所占用的资源。
 
@@ -333,7 +331,7 @@ D、\<%@
 
 2. 简述使用 JDBC 连接数据库的 5 个步骤？（**P187 页**）
 
-   ::: tip
+   ::: tip 答案
 
    1. 加载 JDBC 驱动程序
    2. 创建数据库连接
@@ -345,7 +343,7 @@ D、\<%@
 
 3. 简述 Java 中包的概念？ 列举包的 3 种用途？（**P38 页**）
 
-   ::: tip
+   ::: tip 答案
 
    包（package）是 Java 提供的一种区别类名字空间的机制，是类的组织方式，是一组相关类和接口的集合，它提供了访问权限和命名的管理机制。
 
@@ -359,7 +357,7 @@ D、\<%@
 
 4. session 对象与 application 对象的区别有哪些？
 
-   ::: tip
+   ::: tip 答案
 
    session 对象和用户回话相关，不同用户的 session 是不同的对象，而用户的 application 对象都是相同的一个对象，即共享这个内置的 application 对象。
 
@@ -367,7 +365,7 @@ D、\<%@
 
 5. 请分别说明 click，select 以及 focus 这三个 javascript 事件在何时触发？（**P48 页**）
 
-   ::: tip
+   ::: tip 答案
 
    click：单击鼠标左键时触发
 
@@ -379,7 +377,7 @@ D、\<%@
 
 6. JSP 中内置对象有哪些？（**P79 页**）
 
-   ::: tip
+   ::: tip 答案
 
    application、config、exception、out、page、pageContent、request、response、session
 
@@ -387,7 +385,7 @@ D、\<%@
 
 <br />
 
-## 五、应用题
+## 应用题
 
 ```html
 <form name="form1" method="post" action="a.jsp">
@@ -398,7 +396,7 @@ D、\<%@
 
 以上代码提交的目的页面是什么？
 
-::: tip
+::: tip 答案
 
 a.jsp（由 action 页面决定）
 
@@ -406,7 +404,7 @@ a.jsp（由 action 页面决定）
 
 如果在下一个页面利用 JSP 内置对象获取表单中的用户名，写出对应的代码。（**P80 页**）
 
-```jsp
+```text
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String username = request.getParameter("username");
@@ -414,7 +412,7 @@ a.jsp（由 action 页面决定）
 %>
 ```
 
-```jsp
+```text
 <%@ page language="java" pageEncoding="UTF-8"%>
 <% page import="java.util.Date" %>
 <html>
@@ -430,7 +428,7 @@ a.jsp（由 action 页面决定）
 
 指出程序中 page 指令中 import 属性的作用？（**P55 页**）
 
-::: tip
+::: tip 答案
 
 import 属性类似于 Java 中的 import 语句，用来向 JSP 文件中导入需要用到的包。在 Page 指令中可多次使用该属性来导入多个包。
 

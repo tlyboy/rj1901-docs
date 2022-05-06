@@ -1,6 +1,4 @@
----
-title: 教学作息时间表
----
+<h1 style="text-align: center">教学作息时间表</h1>
 
 <p style="text-align: center">（自2021年9月1日执行起执行）</p>
 
