@@ -1,4 +1,4 @@
-# Android 程序设计
+# Android 应用开发
 
 1. Android 开发也可以在 Windows 系统中实现。
 
@@ -8,15 +8,11 @@
 
    ::: tip 答案
 
-   （1）Activity 的整个生命周期中有 活动、暂停、停止 和 非活动 四种状态；
-
-   （2）活动状态，是在栈顶的 Activity，它是 可视的、有焦点的，可接受用户输入；
-
-   （3）暂停状态，是当 Activity 失去焦点时，但任然可见的状态；
-
-   （4）若 Activity 变为完全隐藏，它将变成停止状态；
-
-   （5）Activity 被用户关闭，以及暂停或停止状态的 Activity 被系统终结后，Activity 便会进入到非活动状态，它将被移出 Activity 栈。
+   1. Activity 的整个生命周期中有 活动、暂停、停止 和 非活动 四种状态；
+   2. 活动状态，是在栈顶的 Activity，它是 可视的、有焦点的，可接受用户输入；
+   3. 暂停状态，是当 Activity 失去焦点时，但任然可见的状态；
+   4. 若 Activity 变为完全隐藏，它将变成停止状态；
+   5. Activity 被用户关闭，以及暂停或停止状态的 Activity 被系统终结后，Activity 便会进入到非活动状态，它将被移出 Activity 栈。
 
    :::
 
@@ -44,13 +40,10 @@
 
     ::: tip 答案
 
-    （1）文件存储；
-
-    （2）SharedPreferences；
-
-    （3）SQLite 数据库；
-
-    （4）ContentProvider。
+    1. 文件存储；
+    2. SharedPreferences；
+    3. SQLite 数据库；
+    4. ContentProvider。
 
     :::
 
@@ -62,11 +55,9 @@
 
     ::: tip 答案
 
-    （1）调用 `OpenFileInput()` 方法，传入需要读取数据的文件名，该方法将会返回一个文件输入流对象。
-
-    （2）调用 `Read()` 方法，读取文件的内容。
-
-    （3）调用 `Close()` 方法，关闭文件输入流。
+    1. 调用 `OpenFileInput()` 方法，传入需要读取数据的文件名，该方法将会返回一个文件输入流对象。
+    2. 调用 `Read()` 方法，读取文件的内容。
+    3. 调用 `Close()` 方法，关闭文件输入流。
 
     :::
 
@@ -102,11 +93,9 @@
 
     ::: tip 答案
 
-    （1）调用 `OpenFileOutput()` 方法，传入文件的名称和操作的模式，该方法将返回一个文件输出流。
-
-    （2）调用 `Write()` 方法，向该文件输出流写入数据。
-
-    （3）调用 `Close()` 方法，关闭文件输出流。
+    1. 调用 `OpenFileOutput()` 方法，传入文件的名称和操作的模式，该方法将返回一个文件输出流。
+    2. 调用 `Write()` 方法，向该文件输出流写入数据。
+    3. 调用 `Close()` 方法，关闭文件输出流。
 
     :::
 
@@ -154,9 +143,8 @@
 
     ::: tip 答案
 
-    （1）src 目录用来放置所有的逻辑代码，所有 java 文件都放在这里；
-
-    （2）assets 目录存放原始格式的文件，如音频、视频等文件，其中的资源不能被 R.java 索引。
+    1. src 目录用来放置所有的逻辑代码，所有 java 文件都放在这里；
+    2. assets 目录存放原始格式的文件，如音频、视频等文件，其中的资源不能被 R.java 索引。
 
     :::
 
@@ -174,57 +162,57 @@
 
 54. Android 数据库操作：
 
-（1）构造方法 `xueshengDbHelper（）`
+    1. 构造方法 `xueshengDbHelper（）`
 
-```java
-class xueshengDbHelper extends SQLiteOpenHelper{
-    private static final String Creat_Table_Sql = "create table xuesheng(id integer, name text)";
+       ```java
+       class xueshengDbHelper extends SQLiteOpenHelper{
+           private static final String Creat_Table_Sql = "create table xuesheng(id integer, name text)";
 
-    public MyDbHelper(Context context, String name, CursorFactory factory, int version){
-        super(context, name, factory, version);
-    }
-}
-```
+           public MyDbHelper(Context context, String name, CursorFactory factory, int version){
+               super(context, name, factory, version);
+           }
+       }
+       ```
 
-（2） 重写 `onCreate()` 方法、创建表结构
+    2. 重写 `onCreate()` 方法、创建表结构
 
-```java
-@Override
-public void onCreate(SQLiteDatabase db){
-    db.execSQL(Creat_Table_Sql);
-}
-```
+       ```java
+       @Override
+       public void onCreate(SQLiteDatabase db){
+           db.execSQL(Creat_Table_Sql);
+       }
+       ```
 
-（3）添加一个插入记录的 `xueshengInsert()` 方法
+    3. 添加一个插入记录的 `xueshengInsert()` 方法
 
-```java
-private void xueshengInsert(String sql){
-    getWritableDatabase().execSQL(sql);
-}
-```
+       ```java
+       private void xueshengInsert(String sql){
+           getWritableDatabase().execSQL(sql);
+       }
+       ```
 
-（4）实现一个一个返回 Cursor 对象的查询方法 `xueshengQuery()`，返回整个 xuesheng 表的内容。
+    4. 实现一个一个返回 Cursor 对象的查询方法 `xueshengQuery()`，返回整个 xuesheng 表的内容。
 
-```java
-private Cursor xueshengQuery(){
-    Cursorcursor = getWritableDatabase().query("xuesheng", null, null, null, null, null, null);
-    return cursor;
-}
-```
+       ```java
+       private Cursor xueshengQuery(){
+           Cursorcursor = getWritableDatabase().query("xuesheng", null, null, null, null, null, null);
+           return cursor;
+       }
+       ```
 
-（5）实现一个一个返回 Cursor 对象的查询方法 `myQuerys()`，返回整个 xueshengInfo 表的内容
+    5. 实现一个一个返回 Cursor 对象的查询方法 `myQuerys()`，返回整个 xueshengInfo 表的内容
 
-```java
-private Cursor myQuerys(){
-    Cursorcursor = getWritableDatabase().query("xueshengInfo", null, null, null, null, null, null);
-    return cursor;
-}
-```
+       ```java
+       private Cursor myQuerys(){
+           Cursorcursor = getWritableDatabase().query("xueshengInfo", null, null, null, null, null, null);
+           return cursor;
+       }
+       ```
 
-（6）添加一个删除记录的 `myDelete()` 方法
+    6. 添加一个删除记录的 `myDelete()` 方法
 
-```java
-private void myDelete(String sql){
-    getWritableDatabase().execSQL(sql);
-}
-```
+       ```java
+       private void myDelete(String sql){
+           getWritableDatabase().execSQL(sql);
+       }
+       ```

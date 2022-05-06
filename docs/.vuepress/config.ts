@@ -60,11 +60,11 @@ export default defineConfig({
         text: '考前复习',
         items: [
           {
-            text: 'Java开源框架',
+            text: 'Java 开源框架',
             link: '/test/java-framework/subject'
           },
           {
-            text: 'PHP程序设计',
+            text: 'PHP 程序设计',
             link: '/test/programming-php/subject'
           },
           {
@@ -76,7 +76,7 @@ export default defineConfig({
             link: '/test/multimedia-technology/subject'
           },
           {
-            text: 'Android应用开发',
+            text: 'Android 应用开发',
             link: '/test/android-application-development/outline'
           }
         ]
