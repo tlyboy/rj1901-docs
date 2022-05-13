@@ -1,7 +1,7 @@
 import { defineConfig } from 'vuepress/config'
 
 export default defineConfig({
-  base: '/rj1901-ac-docs/',
+  base: '/rj1901-docs/',
   description: '这是我们软件 1901 的班级文档',
   head: [
     [
@@ -39,7 +39,7 @@ export default defineConfig({
   themeConfig: {
     docsBranch: 'main',
     docsDir: 'docs',
-    docsRepo: 'tlyboy/rj1901-ac-docs',
+    docsRepo: 'tlyboy/rj1901-docs',
     editLinkText: '在 GitHub 上编辑此页',
     editLinks: true,
     lastUpdated: '上次更新',
@@ -82,7 +82,7 @@ export default defineConfig({
         ]
       }
     ],
-    repo: 'tlyboy/rj1901-ac-docs',
+    repo: 'tlyboy/rj1901-docs',
     sidebar: {
       '/guide/': [''],
       '/test/java-framework/': ['subject', 'answer'],
