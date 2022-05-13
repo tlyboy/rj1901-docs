@@ -1,8 +1,7 @@
 import { defineConfig } from 'vuepress/config'
 
 export default defineConfig({
-  base: '/rj1901-docs/',
-  description: '这是我们软件 1901 的班级文档',
+  description: '这是我们软件 1901 的文档',
   head: [
     [
       'meta',
@@ -30,7 +29,7 @@ export default defineConfig({
     '/': {
       lang: 'zh-CN',
       title: '软件 1901 文档',
-      description: '这是我们软件 1901 的班级文档'
+      description: '这是我们软件 1901 的文档'
     }
   },
   markdown: {
