@@ -10,4 +10,4 @@
 
 ## 关于文档
 
-该文档基于 [VuePress 快速上手](https://tlyboy.github.io/vuepress-quick-start/) 构建。
+该文档基于 [VuePress 快速上手](https://github.com/tlyboy/vuepress-quick-start) 构建。
