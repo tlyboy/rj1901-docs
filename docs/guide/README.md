@@ -7,7 +7,3 @@
 | QQ         | 微信   | 钉钉   |
 | ---------- | ------ | ------ |
 | 1084072690 | boytly | tlyboy |
-
-## 相关仓库
-
-- [VuePress 快速上手](https://github.com/tlyboy/vuepress-quick-start)
