@@ -8,6 +8,6 @@
 | ---------- | ------ | ------ |
 | 1084072690 | boytly | tlyboy |
 
-## 关于文档
+## 相关仓库
 
-该文档基于 [VuePress 快速上手](https://github.com/tlyboy/vuepress-quick-start) 构建。
+- [VuePress 快速上手](https://github.com/tlyboy/vuepress-quick-start)
