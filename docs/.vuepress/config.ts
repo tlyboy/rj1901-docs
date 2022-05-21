@@ -1,6 +1,7 @@
 import { defineConfig } from 'vuepress/config'
 
 export default defineConfig({
+  title: '软件 1901 文档',
   description: '这是我们软件 1901 的文档',
   head: [
     [
@@ -33,27 +34,36 @@ export default defineConfig({
       description: '这是我们软件 1901 的文档'
     }
   },
-  markdown: {
-    lineNumbers: true
-  },
   themeConfig: {
-    docsBranch: 'main',
-    docsDir: 'docs',
-    docsRepo: 'tlyboy/rj1901-docs',
-    editLinkText: '在 GitHub 上编辑此页',
-    editLinks: true,
-    lastUpdated: '上次更新',
     logo: '/assets/img/logo.png',
     nav: [
-      { text: '首页', link: '/' },
-      { text: '文档简介', link: '/guide/' },
+      {
+        text: '首页',
+        link: '/'
+      },
+      {
+        text: '文档简介',
+        link: '/guide/'
+      },
       {
         text: '信息速查',
         items: [
-          { text: '班级课表', link: '/class/class-table' },
-          { text: '教学作息时间表', link: '/class/time-table' },
-          { text: '考试时间', link: '/class/examination-time' },
-          { text: '学院校历', link: '/class/school-calendar' }
+          {
+            text: '班级课表',
+            link: '/class/class-table'
+          },
+          {
+            text: '教学作息时间表',
+            link: '/class/time-table'
+          },
+          {
+            text: '考试时间',
+            link: '/class/examination-time'
+          },
+          {
+            text: '学院校历',
+            link: '/class/school-calendar'
+          }
         ]
       },
       {
@@ -82,7 +92,6 @@ export default defineConfig({
         ]
       }
     ],
-    repo: 'tlyboy/rj1901-docs',
     sidebar: {
       '/guide/': [''],
       '/test/java-framework/': ['subject', 'answer'],
@@ -96,7 +105,17 @@ export default defineConfig({
       ]
     },
     sidebarDepth: 2,
+    lastUpdated: '上次更新',
+    repo: 'tlyboy/rj1901-docs',
+    docsRepo: 'tlyboy/rj1901-docs',
+    docsDir: 'docs',
+    docsBranch: 'main',
+    editLinks: true,
+    editLinkText: '在 GitHub 上编辑此页',
     smoothScroll: true
   },
-  title: '软件 1901 文档'
+  plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom'],
+  markdown: {
+    lineNumbers: true
+  }
 })
