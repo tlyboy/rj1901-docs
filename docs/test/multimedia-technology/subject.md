@@ -2,4 +2,4 @@
 
 ## 下载链接
 
-[1272.zip](https://tlyboy.lanzouo.com/i19KGxepiza)
+[1272.zip](https://tlyboy.lanzouu.com/i19KGxepiza)
