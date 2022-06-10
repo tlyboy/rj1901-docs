@@ -7,11 +7,13 @@
   "author": "Guany",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:format": "prettier --write ."
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-medium-zoom": "^1.9.7",
+    "prettier": "^2.6.2",
     "vuepress": "^1.9.7"
   }
 }
