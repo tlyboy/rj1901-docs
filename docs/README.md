@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /assets/img/hero.png
 heroText: 软件 1901 文档
 tagline: 作者：tlyboy
 actionText: 文档简介 →
