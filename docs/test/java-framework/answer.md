@@ -405,24 +405,19 @@ a.jsp（由 action 页面决定）
 如果在下一个页面利用 JSP 内置对象获取表单中的用户名，写出对应的代码。（**P80 页**）
 
 ```html
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%
-    String username = request.getParameter("username");
-    out.println("用户名为：" + username);
-%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %> <% String username = request.getParameter("username");
+out.println("用户名为：" + username); %>
 ```
 
 ```html
-<%@ page language="java" pageEncoding="UTF-8"%>
-<% page import="java.util.Date" %>
+<%@ page language="java" pageEncoding="UTF-8"%> <% page import="java.util.Date" %>
 <html>
-<head><title>JSP 页面的基本构成</title></head>
-<body>
-<center>
-<% String today= new Date().toLocalString(); %>
-今天是: <%= today; %>
-</center>
-</body>
+  <head>
+    <title>JSP 页面的基本构成</title>
+  </head>
+  <body>
+    <center><% String today= new Date().toLocalString(); %> 今天是: <%= today; %></center>
+  </body>
 </html>
 ```
 
